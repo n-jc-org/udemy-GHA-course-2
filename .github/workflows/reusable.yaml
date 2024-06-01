@@ -5,7 +5,7 @@ on:
     inputs:
       name: 
         description: 'input description'
-        type: String
+        type: string
         default: 'Ali'
         required: false
     secrets:
