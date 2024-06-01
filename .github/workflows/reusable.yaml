@@ -25,7 +25,7 @@ jobs:
     - name: Display Girhub Context
       run: echo '${{ toJSON(github) }}'
     - name: Display name input
-      run: echo ${{ input.name }}
+      run: echo ${{ inputs.name }}
     - name: Display access-token secret
       run: echo ${{ secrets.access-token }}
 
